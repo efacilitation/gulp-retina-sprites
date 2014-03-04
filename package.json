@@ -1,0 +1,41 @@
+{
+  "name": "gulp-compass-retina-sprites",
+  "description": "",
+  "url": "https://github.com/efacilitation/gulp-compass-retina-sprites",
+  "author": {
+    "name": "eFa Team",
+    "email": "team@efa-gmbh.com"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efacilitation/gulp-compass-retina-sprites"
+  },
+  "bugs": {
+    "url": "https://github.com/efacilitation/gulp-compass-retina-sprites/issues"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "compass",
+    "sprites",
+    "retina"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "through2": "*",
+    "coffee-script": "*",
+    "chalk": "*",
+    "gm": "*",
+    "vinyl": "*",
+    "deferred": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect": "*"
+  }
+}
