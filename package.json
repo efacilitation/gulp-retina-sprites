@@ -1,7 +1,7 @@
 {
-  "name": "gulp-compass-retina-sprites",
+  "name": "gulp-retina-sprites",
   "description": "",
-  "url": "https://github.com/efacilitation/gulp-compass-retina-sprites",
+  "url": "https://github.com/efacilitation/gulp-retina-sprites",
   "author": {
     "name": "eFa Team",
     "email": "team@efa-gmbh.com"
@@ -11,10 +11,10 @@
   "main": "index.coffee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/efacilitation/gulp-compass-retina-sprites"
+    "url": "https://github.com/efacilitation/gulp-retina-sprites"
   },
   "bugs": {
-    "url": "https://github.com/efacilitation/gulp-compass-retina-sprites/issues"
+    "url": "https://github.com/efacilitation/gulp-retina-sprites/issues"
   },
   "keywords": [
     "gulp",

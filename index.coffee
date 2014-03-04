@@ -1,6 +1,6 @@
 'use strict'
 
-PLUGIN_NAME = 'gulp-compass-retina-sprites'
+PLUGIN_NAME = 'gulp-retina-sprites'
 
 Stream  = require('stream').Stream
 
