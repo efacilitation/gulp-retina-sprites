@@ -1,12 +1,12 @@
 {
   "name": "gulp-retina-sprites",
-  "description": "",
+  "description": "Convert images automatically to retina sprites.",
   "url": "https://github.com/efacilitation/gulp-retina-sprites",
   "author": {
     "name": "eFa Team",
     "email": "team@efa-gmbh.com"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.coffee",
   "repository": {
