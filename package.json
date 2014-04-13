@@ -6,9 +6,9 @@
     "name": "eFa Team",
     "email": "team@efa-gmbh.com"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
-  "main": "index.coffee",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/efacilitation/gulp-retina-sprites"
@@ -24,11 +24,11 @@
     "retina"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prepublish": "node_modules/.bin/coffee -c index.coffee"
   },
   "dependencies": {
     "through2": "*",
-    "coffee-script": "*",
     "chalk": "*",
     "gm": "*",
     "vinyl": "*",
@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "expect": "*"
+    "expect": "*",
+    "coffee-script": "*"
   }
 }
