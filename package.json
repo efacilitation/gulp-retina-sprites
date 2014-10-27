@@ -32,7 +32,8 @@
     "chalk": "*",
     "gm": "*",
     "vinyl": "*",
-    "deferred": "*"
+    "deferred": "*",
+    "lodash": "*"
   },
   "devDependencies": {
     "mocha": "*",
