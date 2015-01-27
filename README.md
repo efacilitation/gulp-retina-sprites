@@ -7,7 +7,7 @@ Currently only supports .png Files
 ## Install
 
 ```
-npm install --save-dev gulp-gulp-retina-sprites
+npm install --save-dev gulp-retina-sprites
 ```
 
 
