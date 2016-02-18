@@ -15,11 +15,11 @@ npm install --save-dev gulp-retina-sprites
 
 ```js
 var gulp = require('gulp');
-var gulp-retina-sprites = require('gulp-retina-sprites');
+var gulpRetinaSprites = require('gulp-retina-sprites');
 
 gulp.task('default', function () {
 	gulp.src('static/*.png')
-		.pipe(gulp-retina-sprites())
+		.pipe(gulpRetinaSprites())
 		.pipe(gulp.dest('dist'));
 });
 ```
