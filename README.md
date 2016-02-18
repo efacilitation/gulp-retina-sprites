@@ -1,4 +1,4 @@
-# [gulp](http://gulpjs.com)-gulp-retina-sprites
+# [gulp](http://gulpjs.com)-retina-sprites
 
 > Convert images automatically to retina sprites.
 
@@ -7,7 +7,7 @@ Currently only supports .png Files
 ## Install
 
 ```
-npm install --save-dev gulp-gulp-retina-sprites
+npm install --save-dev gulp-retina-sprites
 ```
 
 
@@ -15,7 +15,7 @@ npm install --save-dev gulp-gulp-retina-sprites
 
 ```js
 var gulp = require('gulp');
-var gulp-retina-sprites = require('gulp-gulp-retina-sprites');
+var gulp-retina-sprites = require('gulp-retina-sprites');
 
 gulp.task('default', function () {
 	gulp.src('static/*.png')
